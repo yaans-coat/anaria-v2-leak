@@ -5,10 +5,10 @@ a sick web proxy
 
 ## why should i use it?
 - slick ui
-- games and emulators from different sources
-- built in anime and movies
+- games and webgl emulated content from different sources
+- built in movies, music and anime
 - cloud sync for syncing browsing data and etc.
-- duckduckgo search
+- proxied search with your favouraite browsers
 - very cool...
 
 ## live instance
@@ -16,7 +16,6 @@ a sick web proxy
 [anaria!](https://anaria.fun)
 
 ## self-hosting
-(sorry for linux only support, but i hate windows slop and someone will port this anyway... i think)
 
 ```bash
 #cloning
@@ -24,7 +23,8 @@ git clone https://github.com/yaans-coat/anaria
 
 #setup
 cd anaria
-bash setup.sh
+npm install
+node server.js
 ```
 
 ## credits
@@ -35,3 +35,7 @@ bash setup.sh
 
 ## lisence
 this project ins protected by the [GNU Affero General Public License 3.0](LICENSE)
+
+---
+
+that's all for now! cya!
